@@ -17,3 +17,22 @@ print()
 ```
 
 What argument does `print()` expect?
+
+---
+## 2026-10-27 15:31, in .
+
+**Me:** how to add two numbers?
+
+**Tutor:**
+
+Concept: Adding two numbers with the built-in `+` operator.
+
+```python
+# TODO: Replace a and b with the numbers you want to add
+a = 5
+b = 3
+result = a + b
+print(result)
+```
+
+What is the operator used to add two numbers in Python?

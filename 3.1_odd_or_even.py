@@ -58,7 +58,7 @@ DELIVERABLE
 """
 
 # 1. In:
-#    An integer entered by the user (input variable N).
+#    An integer entered  (input variable N).
 # 2. Process:
 #    Convert input to integer, check bounds. If valid, loop from 1 to N, check if number % 2 == 0.
 # 3. Out:
@@ -86,3 +86,4 @@ else:
              print(f"{i} is even")
          else:
              print(f"{i} is odd")
+

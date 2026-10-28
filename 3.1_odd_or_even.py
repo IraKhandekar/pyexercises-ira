@@ -71,9 +71,8 @@ DELIVERABLE
 
 # Your code below
 
- user_input = input("Enter a number (N): ").strip()
- N = int(user_input)
-    
+user_input = input("Enter a number (N): ").strip()
+N = int(user_input)
 if N < 0:
      print("I can't count to negative numbers! Please enter a positive integer.")
 elif N == 0:

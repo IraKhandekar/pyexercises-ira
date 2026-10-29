@@ -74,3 +74,56 @@ An integer is a whole number, positive, negative, or zero, without a decimal poi
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-29 23:18, in .
+
+**Me:** what is a reserved order
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-29 23:18, in .
+
+**Me:** what is a string
+
+**Tutor:**
+
+A string is a sequence of characters enclosed in quotes.
+
+```python
+# TODO: create a string variable
+greeting = "Hello, world!"
+print(greeting)
+```
+
+What quotes are used to create a string?
+
+---
+## 2026-10-29 23:21, in .
+
+**Me:** Which should you use, sorted() or .sort(), and why?
+
+**Tutor:**
+
+The difference between sorted() and .sort().
+
+- sorted() returns a new list and leaves the original unchanged.
+- .sort() sorts the list in place and returns None.
+
+Pattern on toy data:
+
+```python
+# TODO: create a list of numbers
+numbers = [3, 1, 4, 1, 5]
+
+# TODO: use sorted() to get a new sorted list
+sorted_numbers = sorted(numbers)
+
+# TODO: use .sort() to sort the list in place
+numbers.sort()
+```
+
+Which function returns a new list?

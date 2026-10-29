@@ -36,3 +36,41 @@ print(result)
 ```
 
 What is the operator used to add two numbers in Python?
+
+---
+## 2026-10-29 22:32, in .
+
+**Me:** what is a loop
+
+**Tutor:**
+
+A loop is a way to repeat a block of code while a condition is true or for each item in a collection.
+
+```python
+# Looping over a list of toy products
+products = ["alpha", "beta", "gamma"]
+
+for product in products:
+    print(f"Processing {product}")
+    # TODO: add your marketing logic here
+```
+
+Which built-in function gives you the length of the list `products`?
+
+---
+## 2026-10-29 22:43, in .
+
+**Me:** what is an integer
+
+**Tutor:**
+
+An integer is a whole number, positive, negative, or zero, without a decimal point.
+
+---
+## 2026-10-29 22:45, in .
+
+**Me:** what is a reserved order
+
+**Tutor:**
+
+Refused, off topic.

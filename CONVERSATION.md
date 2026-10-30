@@ -170,3 +170,25 @@ for i, name in enumerate(campaigns):
 ```
 
 What is the default value of the `start` parameter in `enumerate`?
+
+---
+## 2026-10-30 00:13, in .
+
+**Me:** what does .strip().lower() do to the input  YES , and why does the order of the two methods not change the result here?
+
+**Tutor:**
+
+String cleaning in two steps.
+
+```python
+text = "  YES , "
+cleaned = text.strip().lower()
+# cleaned is now "yes"
+```
+
+`strip()` removes leading and trailing whitespace and the comma.
+`lower()` converts all remaining characters to lowercase.
+
+Because both methods return a new string, the order does not matter when you chain them: `strip().lower()` and `lower().strip()` both give the same result.
+
+Which string method removes characters from the ends of a string?

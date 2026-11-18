@@ -532,3 +532,27 @@ with open("my_file.csv", mode="a") as f:
 ```
 
 Question: If you want to keep the header row and add new rows below it, which mode should you use?
+
+---
+## 2026-11-18 20:41, in .
+
+**Me:** "In parse_name, how does the function decide which word is the last name in a line without a comma?"
+
+**Tutor:**
+
+The function decides the last word is the last name when there is no comma.
+
+```python
+def parse_name(line):
+    if "," in line:
+        parts = line.split(",")
+        first = parts[1].strip()
+        last = parts[0].strip()
+    else:
+        parts = line.split()
+        first = parts[0]
+        last = parts[-1]  # TODO: which word is chosen as last name?
+    return first, last
+```
+
+What is the index of the last name in the list `parts` when there is no comma?
